@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	input := 16
+	input := 0
 	fmt.Println(grains.Square(input))
 }
