@@ -26,15 +26,30 @@ func main() {
 		}
 		slice = append(slice, char)
 	}
-
-	fmt.Println("Keep: ", Keep(slice))
+	 var IsEven bool = true
+	fmt.Println("Keep: ", Keep(slice, IsEven))
 	fmt.Println("Discard ", Discard(slice))
 }
 
 
-func Keep(slice []int, num int) []int{
-	temp 
+func Keep[T comparable , V bool ](slice []T, num V) []T{
+	var temp [] T
+
+		for _, char := range slice {
+			if num { 
+				
+
+			
+		}
+
+	}
+	
+	 
 } 
+
+
+
+
 func CustomAtoi(s string) (int, error) {
 	var result int
 	var isNeg bool
